@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_green">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CreditCalcu"
+            android:textColor="@color/text_black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvAmountResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CreditSum"
+            android:background="@drawable/bg_white_rounded"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvTermResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Credit"
+            android:background="@drawable/bg_white_rounded"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvPaymentResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BuyM"
+            android:background="@drawable/bg_white_rounded"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnToMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="24dp"
+        android:text="Регистрация"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/btn_dark_green"
+        app:cornerRadius="16dp"/>
+</LinearLayout>

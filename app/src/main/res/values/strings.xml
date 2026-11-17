@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PavlovMI_01_04</string>
+    <string name="BuyM">ежемесячный\nплатёж</string>
+    <string name="Credit">срок кредита</string>
+    <string name="CreditSum">Сумма кредита</string>
+    <string name="CreditCalcu">Кредитный калькулятор</string>
+    <string name="Log">ВОЙТИ</string>
+    <string name="Login">Логин</string>
+    <string name="Password">Пароль</string>
+    <string name="Registr">Регистрация</string>
+    <string name="Result">РАССЧИТАТЬ</string>
+    <string name="Col">Сколько вам нужно</string>
+    <string name="CreditSr">введите срок кредита</string>
+    <string name="BuyM2">ежемесячный платёж</string>
+</resources>
